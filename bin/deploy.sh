@@ -9,4 +9,4 @@ set -x
 
 sudo yum install ansible
 
-ansible-playbook -i hosts provisioning/prod.yml
+ansible-playbook -vvvv -i hosts provisioning/prod.yml
