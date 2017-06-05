@@ -122,7 +122,7 @@ describe('inputValidator', () => {
           '',
           '1899',
           null,
-          '2017',
+          '2037',
           'words?'
       ].forEach((testCase) => {
           it(`Should return false given a non year string or out of range ${testCase}`, () => {
